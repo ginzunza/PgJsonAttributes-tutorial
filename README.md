@@ -16,4 +16,11 @@ end
 ```ruby
 Tool.create!(his_attributes: {name: "My first tool", height: "2m"}.to_json)
 ```
-En la siguiente linea de código, al atributo "his_attributes", se le ingresa, en formato JSON, el atributo *name* y 
+En la siguiente linea de código, al atributo "his_attributes", se le ingresa, en formato JSON, el atributo *name* y *height*. Cabe destacar que, es necesario hacer el parsing a JSON, para que así la información sea ingresada a la BD en el formato correcto.
+
+###Acceso a los datos
+
+```ruby
+Tool.his_attributes["name"]
+#salida: "My first tool"
+```
