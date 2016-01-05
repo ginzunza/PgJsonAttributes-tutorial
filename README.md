@@ -1,5 +1,5 @@
 # PgJsonAttributes-tutorial
-Tutorial sobre cómo guardar y desplegar atributos tipo Json en Rails
+Tutorial sobre cómo guardar y desplegar atributos tipo Json en Rails <br>
 Para el siguiente tutorial se asume que el motor de base de datos es postgresql.
 
 Si, en el esquema, se tiene el siguiente modelo:
