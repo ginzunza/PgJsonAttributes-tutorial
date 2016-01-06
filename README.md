@@ -21,6 +21,7 @@ En la siguiente linea de código, al atributo "his_attributes", se le ingresa, e
 ###Acceso a los datos
 
 ```ruby
-Tool.his_attributes["name"]
+Tool.last.his_attributes["name"]
 #salida: "My first tool"
 ```
+Asumiendo que la *Tool* ingresada en el ejemplo anterior fue la última, para acceder a su atributo *name* basta con especificarlo de la misma manera que se hace con los hash.
